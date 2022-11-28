@@ -1,0 +1,9 @@
+
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+.game-board {
+    border-style: solid 1rem white;
+    display: flex;
+}
