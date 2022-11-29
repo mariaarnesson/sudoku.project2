@@ -1,9 +1,58 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-spacing: 0;
+}
 h1 {
     text-align: center;
     margin: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: lowercase;
+    letter-spacing: 10px;
 }
 .game-board {
     border-style: solid 1rem white;
-    display: flex;
+    margin: auto;
+    width: 50%;
+}
+.digits {
+    width: 500px;
+    height: 500px;
+}
+
+.digits input {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+button {
+    border-radius: 10px;
+    background-color: rgba(210, 147, 29, 0.353);
+    width: 150px;
+    height: 50px;
+}
+#alertBox {
+	position: absolute;
+	top: 30%;
+	bottom: 60%;
+	left: 40%;
+	width: 500px;
+	height: 500px;
+	background-image:url(https://images.pexels.com/photos/910616/pexels-photo-910616.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	border-radius: 10px;
+	padding: 10px;
+	z-index: 2;
+
+	text-align: center;
+	color: black;
+}
+
+#alertClose {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, .5);
+	width: 100%;
+	height: 100%;
 }
